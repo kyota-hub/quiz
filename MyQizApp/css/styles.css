@@ -103,3 +103,22 @@ body{
 #result.hidden{
   transform: translateY(-500px);
 }
+
+@media(max-width:500px){
+  body{
+    height: fit-content;
+  }
+
+  .container{
+    width: 280px;
+    margin: auto;
+  }
+
+  #result{
+    width: 200px;
+  }
+
+  #result p{
+    font-size: 18px;
+  }
+}
